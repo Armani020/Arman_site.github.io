@@ -1,0 +1,148 @@
+body{
+  padding: 20px;
+  background-color: #557174;
+}
+#top{
+  background-color: #d3e0ea;
+  padding: 10px 10%;
+  border-radius: 10px 10px 0 0;
+}
+.navbar-brand{
+  text-align: center;
+}
+.image{
+  width: 220px;
+  margin: 0px;
+}
+h1{
+  font-size: 3.5rem;
+}
+.title-class{
+  margin-top: 15px;
+  text-align: center;
+}
+.fraze{
+  padding-top: 90px;
+  text-align: center;
+}
+.navbar-brand{
+  font-size: 2em;
+  font-family: "Poppins";
+}
+.collapse{
+  font-family: "Poppins";
+}
+.col{
+  margin-left: 0px;
+  text-align: center;
+}
+.box{
+  background-color: #e8e8e5;
+  width: 100%;
+  height: 300px;
+}
+.r-info{
+  padding-top: 10px;
+  text-align: center;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+#about-me{
+  background-color: #ffe3de;
+  /* margin-top: 10px; */
+  padding: 0px 10%;
+}
+.r-about-me-into{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  font-family: "Poppins";
+  /* width: 900px; */
+  /* margin-left: 50px;
+  margin-right: 50px; */
+}
+.image-city{
+  border-radius: 15px;
+  width: 500px;
+}
+.city-info{
+  /* padding-top: 75px; */
+  font-family: "Poppins";
+}
+.text-into-about{
+  padding-top: 20px;
+  text-align: left;
+  font-size: 1.5rem;
+}
+#skills{
+  background-color: #f4f5db;
+  padding: 10px 10%;
+  padding-bottom: 30px;
+}
+.r-skills{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+.text-skills{
+  padding: 50px;
+}
+.language{
+  width: 72px;
+  height: 72px;
+  margin-left: 70px;
+  font-family: "Poppins";
+}
+#hobbies{
+  background-color: #80ffdb;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: "Poppins";
+  font-size: 2rem;
+}
+.gaming-image{
+  border-radius: 10px;
+}
+.anime-image{
+  border-radius: 10px;
+}
+#contacts{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #e8e8e5;
+  font-family: "Poppins";
+  border-radius: 0 0 10px 10px;
+}
+.r-contacts{
+  text-align: center;
+  align: center;
+  margin-left: 42%;
+}
+.contacts-image{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+@keyframes bounce {
+	0%, 20%, 60%, 100% {
+		transform: translateY(0);
+		transform: translateY(0);
+	}
+
+	40% {
+		transform: translateY(-20px);
+		transform: translateY(-20px);
+	}
+
+	80% {
+		transform: translateY(-10px);
+		transform: translateY(-10px);
+	}
+}
+.contacts-image:hover {
+	animation: bounce 0.8s;
+}
+.contacts-image{
+  transition: all 500ms ease;
+}
